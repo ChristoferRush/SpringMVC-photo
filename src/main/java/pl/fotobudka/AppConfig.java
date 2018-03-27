@@ -26,7 +26,7 @@ import java.util.Locale;
 public class AppConfig extends WebMvcConfigurerAdapter {
 
     @Bean
-    public LocalEntityManagerFactoryBean entityManagerFactoryBean(){
+    public LocalEntityManagerFactoryBean entityManagerFactory(){
         LocalEntityManagerFactoryBean emfb = new LocalEntityManagerFactoryBean();
         emfb.setPersistenceUnitName("fotobudkaPersistenceUnit");
         return emfb;
