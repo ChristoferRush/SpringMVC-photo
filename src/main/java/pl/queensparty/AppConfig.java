@@ -1,4 +1,4 @@
-package pl.fotobudka;
+package pl.queensparty;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -21,8 +21,8 @@ import java.util.Locale;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan(value = "pl.fotobudka")
-@EnableJpaRepositories(value = "pl.fotobudka.repository")
+@ComponentScan(value = "pl.queensparty")
+@EnableJpaRepositories(value = "pl.queensparty.repository")
 public class AppConfig extends WebMvcConfigurerAdapter {
 
     @Bean

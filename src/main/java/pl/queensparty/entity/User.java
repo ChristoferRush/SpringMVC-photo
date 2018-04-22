@@ -1,4 +1,4 @@
-package pl.fotobudka.entity;
+package pl.queensparty.entity;
 
 import javax.persistence.*;
 

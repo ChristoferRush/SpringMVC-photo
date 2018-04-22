@@ -1,11 +1,11 @@
-package pl.fotobudka.controller;
+package pl.queensparty.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import pl.fotobudka.entity.User;
+import pl.queensparty.entity.User;
 
 import javax.servlet.http.HttpSession;
 
